@@ -1,10 +1,7 @@
 import re, json
 import InterfaceObject
-import pysnmp.hlapi
-from pysnmp.entity.rfc3413.oneliner import cmdgen
-from ipsoft_napalm import get_network_driver
 
-# from napalm import get_network_driver
+from napalm import get_network_driver
 
 
 class Host():
